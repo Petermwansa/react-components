@@ -1,0 +1,10 @@
+  
+  .home__cards {
+    width: 80%;
+    text-align: center;
+    margin: 10%;
+  }
+  
+  .home__cards > .card {
+    display: inline-block;
+  }

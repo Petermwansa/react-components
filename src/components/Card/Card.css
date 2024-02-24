@@ -1,0 +1,37 @@
+.card {
+    margin: 1px solid black;
+    box-shadow: 0 0 5px black;
+    width: 250px;
+    margin: 20px;
+}
+  
+  .card__image img {
+    width: 249px;
+  }
+  
+  .card__title,
+  .description {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .card__title {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .description {
+    font-size: 12px;
+  
+  }
+  
+  .home__cards {
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+  }
+  
+  .home__cards > .card {
+    display: inline-block;
+  }
